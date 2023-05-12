@@ -8,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/noetipo/microservicios.git
+          uri: https://github.com/Dan-Elioth/micro_micro.git
           searchPaths: config-data
-          username: noetipo
-          password: Tipo47259697
+          username: dan
+          password: 123
           default-label: main
 
 
