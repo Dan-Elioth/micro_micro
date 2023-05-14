@@ -1,6 +1,6 @@
 spring:
   application:
-    name: cliente-service
+    name: persona-service
   profiles:
     active: development
   config:
