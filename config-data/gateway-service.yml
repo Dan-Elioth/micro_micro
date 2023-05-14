@@ -34,10 +34,6 @@ spring:
         - id: venta-service
           uri: lb://venta-service
           predicates:
-            - Path=/venta/**
-        - id: persona-service
-          uri: lb://persona-service
-          predicates:
-            - Path=/category/**,/produc/**
+            - Path=/venta/**zz
 
 
