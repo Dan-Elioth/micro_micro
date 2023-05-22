@@ -35,9 +35,10 @@ spring:
           predicates:
             - Path=/venta/**
         - id: auth-service
-            uri: lb://auth-service
-            predicates:
-              - Path=/auth/**
+          uri: lb://auth-service
+          predicates:
+            - Path=/auth/**
+
 
 
 
