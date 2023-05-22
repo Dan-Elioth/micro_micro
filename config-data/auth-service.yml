@@ -1,5 +1,6 @@
 server:
-  port: 8086
+  port: 8085
+
 spring:
   jpa:
     hibernate.ddl-auto: update
@@ -10,11 +11,6 @@ spring:
     url: jdbc:mysql://localhost:3308/auth
     username: root
     password:
-
-#eureka:
-#  client:
-#    serviceUrl:
-#      defaultZone: http://localhost:8090/eureka/
 
 eureka:
   client:
