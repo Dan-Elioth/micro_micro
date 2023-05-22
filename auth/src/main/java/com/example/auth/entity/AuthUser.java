@@ -13,8 +13,6 @@ public class AuthUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String numeroDocumento;
-    private String nombres;
-    private String apellidoPaterno;
-    private String apellidoMaterno;
+    private String userName;
+    private String password;
 }
